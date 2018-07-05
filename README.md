@@ -1,4 +1,4 @@
-# nameless
+# Nameless language
 
 Simple brainfuck derivative, [here](https://esolangs.org/wiki/Nameless_language)'s the Esolangs wiki entry.
 
@@ -31,4 +31,14 @@ usage: nameless (-e expr | file) [-b | -s] [-i file] [-t (S|N|B)]
   -i file    --input=file    read inputs from file
   -t format  --trans=format  translate shortcuts
   -v         --verbose       print debug information
+```
+
+## Example
+
+### Hello, World!
+
+The following program prints `Hello, World!`:
+
+```
+001001100011001100000011011000000000001000000011001100110011001100010001011100010011001100010011001100110111000000110100000000000000001001000000000001000100001000100010011001000000011100010001000100010100001000100010010000110011001100110011001101000001000100110100000000000000000000100100
 ```
